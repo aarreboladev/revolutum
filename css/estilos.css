@@ -1,0 +1,374 @@
+@charset "UTF-8";
+
+.logo{
+	width:400px;
+	height:75px;
+}
+
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    font-size: 11px;
+    font-family:;
+}
+.nav-tabs > li > a {
+  margin-right: 0px; /*Si no le pongo este margin me peta, porque se pone predeterminado con la clase de bootstrap*/
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+
+}
+.header{
+	background-color: #5da2a5;
+}
+.header h3{
+	color: white;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+       color: #8F1E1A;
+       content: ">";
+}
+.titulo{
+	
+  font-family: Play fair display; /*Modifica la fuente de la letra*/
+  font-size:17px; /*Modifica el tamaño de la letra*/
+  color:#EFEFEF; /*modifica color de letra*/
+}
+.l{
+	font-family: 'Lato' , sans-serif;
+	font-size: 14px;
+	font-weight:regular;
+}
+.header p{
+	color: white;
+	
+}
+.mapa{
+	height:300px;
+}
+.header a{
+	color: white;
+	float: top;
+}
+.lato{
+	font-family: 'Lato' , sans-serif  ;
+}
+.menutop{
+	float: right;
+	font-family: 'Lato' , sans-serif ;
+	font-size: 14px;
+}
+.l1{
+	 margin-top: 15px;
+}
+.fuente{
+	font-family: serif;
+}
+.parrafo{
+	text-align: right;
+	
+}
+.icono{
+	float: right;
+	
+}
+.pfinanciar{
+	background-color:#8F1E1A;
+}
+
+a{
+    color: #8F1E1A;
+    text-decoration: none;
+   
+    font-size:14px;
+    font-family:'Lato', sans-serif;
+}
+.abread{
+	 color: #8F1E1A;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:14px;
+}
+.fondo{
+	background-color:#EFEFEF;
+}
+.menu{
+	background-color: #1E2827; 
+}
+.letra{
+	font-size:14px;
+}
+.menucolor{
+	background-color: #1E2827; 
+}
+.
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+
+.menu a{
+	color: white;
+}
+
+.body{
+	background-color: #E5E4E4;
+}
+.body p{
+	font-family: 'Lato' ,sans-serif;
+	font-size: 14px;
+}
+.body h1{
+	font-family:Playfair Display;
+	border-bottom: solid 1px black;
+	color: #79271d;
+	font-size:25px;
+	font-weight:bold;
+}
+.numerosnegrita{
+	font-weight: bold;
+}
+.tamaño{
+	width:300px;
+}
+.engloba{
+	position: relative;
+}
+.cajaprincipal{
+	top: 10px;
+	position: absolute;
+	right: 15px;
+}
+.deco{
+	font-size:25px;
+	color:white;
+	font-family: 'Lato' , sans-serif;
+}
+.caja1{
+	border: solid black 1px;
+	right: 450px;
+	background-color: #868A84;
+	opacity: 0.9;
+	padding: 5px;
+	margin-top:7px;
+	width:300px;
+}
+.caja1 p{
+	color: white;
+	line-height: 14px;
+	margin-bottom: 5px;
+	
+	margin-left: 5px;
+
+}
+.caja2{
+		border: solid black 1px;
+	right: 450px;
+	background-color:white;
+	opacity: 0.9;
+	padding: 5px;
+	margin-top:7px;
+	width:300px;
+}
+.pie{
+	background-color: #868A84;
+}
+
+.final{
+	background-color: #1D201C;
+	color: #868A84;
+	text-align: center;
+}
+
+.titulo h3{
+	font-size:24px;
+}
+.color{
+	background-color: #868A84;
+}
+
+.pfinal{
+	font-size:20px;
+	
+	color:white;
+}
+.rojo{
+	background-color:#8F1E1A;
+	
+}
+.rojoletra{
+	color:#8F1E1A;
+	border-bottom: solid 1px black;
+
+
+}
+.pie{
+	 background-color:#919B94;
+}
+.enviar{
+	background-color: #8F1E1A;
+	color:white;
+}
+
+.pNegro{
+	color:#1E2827;
+  
+  
+}
+.pBlanco{
+	 color:#C0C5C1; /*modifica color de letra*/
+	
+}
+.pBlanco2{
+  color:#EFEFEF; /*modifica color de letra*/
+  font-family: 'Lato' , sans-serif , sans-serif;
+  font-size:14px; /*Modifica el tamaño de la letra*/
+}
+.lista{
+	list-style:none;
+	
+}
+.fondo2{
+	background-color: #C0C5C1;
+}
+
+.gris{
+	background-color: #EFEFEF;
+	
+
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* mis clases de boostrap */
+.mt-1{
+	margin-top:3px;
+}
+.mb-1{
+	margin-bottom:5px;
+}
+.mb-4{
+	margin-bottom: 25px;
+}
+.mt-3{
+	margin-top:9px;
+}
+.mt-4{
+	margin-top: 20px;
+}
+.mt-5{
+	margin-top:45px;
+}
+
+.pr-2{
+	padding-right:2em;
+}
+.pr-0{
+	padding-right:0px; 
+}
+.pl-0{
+	padding-left:0px;
+
+}
+.boton1{
+	background-color:#388f92; 
+}
+.boton2{
+	background-color: #8F1E1A;
+}
+.borde{
+	border:1px;
+}
+.ml-4 {
+	margin-left: 20px;
+}
+
+.mr-4 {
+	margin-right: 20px;
+}
+ h1{
+ 	font-family: 'Playfair Display', serif;
+ 	font-weight: bold;
+ 	font-size:20px;
+
+ 	 	
+ }
+ .dineros{
+ 	font-size:30px;
+ }
+ .m1{
+ 	font-family: 'Playfair Display';
+ 	font-size: 20px;
+ 	font-weight: bold;
+
+ }
+ .m2{
+ 	font-family: 'Lato' , sans-serif ;
+ 	font-size:12px;
+ 	
+ }
+ .m3{
+ 	font-family: 'Lato' , sans-serif ;
+ 	font-size:14px;
+ 	
+ }
+ .botonp{
+
+ }
+  .rojoh1{
+ 	font-family: 'Playfair Display', serif;
+ 	font-weight: bold;
+ 	color: #8F1E1A;
+ 	font-size:20px;	
+ }
+ .chapa{
+ 	height:300px;
+ 	width: 300px;
+ }
+.a2{
+	color:#388f92;
+	font-weight: 500;
+}
+
+p{
+	font-family: 'Lato' ,  sans-serif;
+	font-size:14px;
+}
+.blanco{
+	color:white;
+}
+.euros{
+	font-weight: bold;
+	font-size:20px;
+	font-family: 'Lato' ,  sans-serif;
+}
+
+h3{
+	font-family: 'Playfair Display';
+	font-size:16px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.h3b{
+	font-family: 'Playfair Display';
+	font-size:16px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+h2{
+	font-family: 'Playfair Display', serif;
+ 	font-weight: bold;
+ 	font-size:16px;
+
+}
